@@ -1,0 +1,244 @@
+.Navbar {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.NavbarT1 {
+    background-color: #D9D9D9;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+.NavbarT2 {
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    height: 100%;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    color: white
+}
+
+.NavbarT2 p {
+
+    letter-spacing: 20px;
+}
+
+
+.Navbar ul {
+    margin: 10px;
+    font-size: 18px;
+    color: #665858;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: #665858;
+}
+
+.container {
+    width: 850px;
+    height: 1080px;
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.game {
+    width: 640px;
+    height: 640px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+}
+
+.gamesize {
+    width: 640px;
+    height: 540px;
+    overflow: hidden;
+}
+
+.game iframe {
+    width: 640px;
+    height: 640px;
+}
+
+.gameword {
+    position: absolute;
+    display: flex;
+    top: 650px;
+    width: 250px;
+    height: 250px;
+}
+
+.gameword p {
+    background-color: #D9D9D9;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #665858;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px dotted;
+    border-color: #665858;
+    line-height: 1.5;
+}
+
+.introduction {
+    position: absolute;
+    display: flex;
+    top: 1000px;
+    width: 300px;
+    line-height: 3.5;
+    font-size: 16px;
+    text-align: center;
+}
+
+.PixelArt {
+
+    position: absolute;
+    display: flex;
+    top: 1400px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.PixelArt2 {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    left: -450px;
+    width: 100px;
+
+
+}
+
+.PixelArt3 {
+    position: absolute;
+    display: flex;
+    top: 100px;
+    right: -200px;
+    width: 300px;
+
+}
+
+
+.pic01 img {
+    margin-bottom: 80px;
+
+}
+
+
+a {
+    color: #665858;
+}
+
+@media screen and (max-width: 768px) {
+    .Navbar {
+        background-color: #D9D9D9;
+        width: 100%;
+        height: 150px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    
+    }
+    .NavbarT1 {
+        background-color: #D9D9D9;
+        width: 90%;
+        height: 150%;
+        margin: auto;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .game {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        left: -25%;
+        position: absolute;
+        top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        background-color: blue;
+    }
+
+    .pic01 img {
+        width: 100%;
+
+    }
+    .PixelArt {
+        position: absolute;
+        display: flex;
+        top: 1900px;
+        align-items: center;
+        justify-content: center;
+    }
+    .PixelArt img {
+        width: 100%;
+
+    }
+
+    .PixelArt2 {
+        position: absolute;
+        display: flex;
+        top: 1000px;
+        align-items: center;
+        justify-content: center;
+    
+    
+    }
+    
+    .PixelArt3 {
+        position: absolute;
+        display: flex;
+        top: 1000px;
+        left: 0px;
+  
+        align-items: center;
+    justify-content: center;
+    
+    }
+.gamesize {
+    width: 640px;
+    height: 500px;
+    overflow: hidden;
+}
+
+}
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) {
+
+
+}
